@@ -75,4 +75,4 @@ print(pedro)
 
 Ruta_excel = os.getenv('Ruta')
 
-pedro.to_excel(Ruta_excel, sheet_name='WebScraping')
+pedro.to_excel('D:/Defensoria del pueblo/Web_Scraping&Firebase/assets/WebScraping.xlsx', sheet_name='WebScraping')
